@@ -1,3 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jimmychandev.com/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'James Chan'
+theme = 'ananke'
+
+[menu]
+ [[menu.main]]
+	identifier = 'about'
+	name = 'about'
+	url =  '/about/'
+	weight = 1
